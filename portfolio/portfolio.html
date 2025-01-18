@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Welcome! I am Vasanth R, an Engineering Student currently persuing second year B.TECH AI-DS <br>in SRI ESHWAR COLLEGE OF ENGINEERING. I am passionate about continuous learning.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Java</li>
+                <li>Python</li>
+                <li>Web Development</li>
+                <li>SQL</li>
+                <li>Data Structures & Algorithms</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Green Horizon</h3>
+                    <p>A plant tracking system providing guidance on plant care and soil testing.</p>
+                </div>
+                <div class="project">
+                    <h3>Soil Health Monitoring System</h3>
+                    <p>An application to calculate soil nutrients and recommend crops or fertilizers.</p>
+                </div>
+                <!-- Add more projects here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contact-form" method="POST" action="port.php">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 [Your Name]. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="port.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #aebab6; /* Dark background */
+    color: rgba(0, 0, 0, 0.8); /* White text with transparency */
+}
+
+/* Header Section */
+header {
+    background: rgba(0, 0, 0, 0.8); /* Transparent dark header */
+    color: rgba(255, 255, 255, 0.9);
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header ul li a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: #1abc9c; /* Highlight on hover */
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background:rgb(1, 5, 7); /* Light transparent background for sections */
+    border-radius: 8px;
+    color:azure;
+}
+
+/* Skills List */
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skills-list li {
+    background: rgba(255, 255, 255, 0.2); /* Slightly lighter transparent background */
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Projects */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    background: rgba(255, 255, 255, 0.1); /* Transparent card */
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1 1 calc(50% - 20px);
+    color: rgba(255, 255, 255, 0.9);
+    transition: background 0.3s ease;
+}
+
+.project:hover {
+    background: rgba(255, 255, 255, 0.2); /* Slightly brighter on hover */
+}
+
+/* Form */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1); /* Transparent input background */
+    color: rgba(255, 255, 255, 0.9);
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #1abc9c;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #16a085;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.8); /* Transparent footer */
+    color: rgba(255, 255, 255, 0.7);
+}
